@@ -1,0 +1,145 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNL57nt8blIjWSyOkCkcCPk",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/PedroBetim/Motocross/blob/main/Introdu%C3%A7%C3%A3o_ao_Pynton.ipynb%2022\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (\"I Competição de Programação da Start\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "quVy2DklPm6Y",
+        "outputId": "983c3fb8-a52a-4ffd-f769-46f7686fdfff"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "I Competição de Programação da Start\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "ano = \"II\"\n",
+        "\n",
+        "print (ano, \"Competição de Programação da Start\")"
+      ],
+      "metadata": {
+        "id": "O9JXMIX-RGtI"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (f \"{ano} Competição de Programação da Start\" )"
+      ],
+      "metadata": {
+        "id": "81dKQjaeR046"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## Aula 2"
+      ],
+      "metadata": {
+        "id": "wDLVSdotl-vj"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Uma escola está promovendo uma campanha de incentivo à leitura, em que cada estudante recebe pontos ao concluir livros. Esses pontos podem ser trocados por diferentes prêmios da escola, e as categorias de livros têm valores diferntes de pontos:\n",
+        "\n",
+        "Ficção: 8 pontos;\n",
+        "Não ficção: 8 ponto;\n",
+        "Infantis: 6 pontos.\n",
+        "Rodrigo, um estudante dessa escola, leu um livro de cada categoria e, agora, quer saber quantos pontos acumulou com sua leitura. Para isso, você deve criar um programa em Python que tenha as seguintes características:\n",
+        "\n",
+        "Consiga armazenar os pontos de cada categoria de livro;\n",
+        "Calcule os pontos de Rodrigo;\n",
+        "Apresente na tela os pontos de Rodrigo.\n"
+      ],
+      "metadata": {
+        "id": "xoa7R9dxTOUb"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "livro_ficcao = 8\n",
+        "livro_n_ficcao = 10\n",
+        "livro_infantil = 6\n",
+        "\n",
+        "pontos_rodrigo = livro_ficcao + livro_n_ficcao + livro_infantil\n",
+        "\n",
+        "print(f\"Os pontos totais do Rodrigo são {pontos_rodrigo}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7xd-nmQLTpfi",
+        "outputId": "edbea65a-2fee-4c38-afac-759b4909c711"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Os pontos totais do Rodrigo são 24\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Ana, outra estudante dessa escola, participou da campanha e leu dois livros de ficção e cinco livros infantis. Para resolvê-lo, responda as seguintes perguntas programando em Python:\n",
+        "\n",
+        "Quantos pontos Ana acumulou ao final da leitura?\n",
+        "Qual é o total de pontos acumulados por Rodrigo e Ana juntos?\n"
+      ],
+      "metadata": {
+        "id": "u63HSfVKUG_y"
+      }
+    }
+  ]
+}
